@@ -1,23 +1,23 @@
-**Jenkins CI/CD Pipeline for Application Deployment**
+# Jenkins CI/CD Pipeline for Application Deployment
 This project demonstrates a basic CI/CD (Continuous Integration and Continuous Deployment) pipeline using Jenkins and Docker. It automates the process of building, testing, and deploying an application upon every code commit.
 
-Objective
+# Objective 
 To set up a Jenkins pipeline that automatically builds, tests, and deploys an application using Jenkins and Docker.
 
-Tools & Technologies
+# Tools & Technologies
 
 Jenkins – Automation server for CI/CD
 Docker – Containerization of the application
 GitHub – Source code version control
 Jenkinsfile – To define the CI/CD pipeline
 
-project-directory/
+# project-directory/
 
 ├── Jenkinsfile
 ├── app/ (your application code)
 └── Dockerfile
 
-Jenkinsfile Overview
+# Jenkinsfile Overview
 
 The pipeline consists of the following stages:
 
@@ -35,7 +35,7 @@ Build – Builds a Docker image for the application
 
 Deploy – Runs the Docker container to deploy the application
 
-Steps to follow:
+# Steps to follow:
 
 1. create an instance and Connect to that instance and execute the following commands
    sudo -i
@@ -84,4 +84,11 @@ Steps to follow:
 6. Click on Apply and save
 7. Click on Build Now
 8. After the build is success, copy the public ip and paste into browser with the port number and war file name
+
+# Results:
+
+![image](https://github.com/user-attachments/assets/6a27c4bf-d7ac-47b5-952a-a229779d0ee5)
+![image](https://github.com/user-attachments/assets/7e1c1357-6228-43bb-b341-12b93aacb7fb)
+![image](https://github.com/user-attachments/assets/b47e6ab1-5d81-4f9a-bed0-705dd6d710b8)
+
 
