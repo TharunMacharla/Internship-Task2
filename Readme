@@ -1,4 +1,4 @@
-Jenkins CI/CD Pipeline for Application Deployment
+**Jenkins CI/CD Pipeline for Application Deployment**
 This project demonstrates a basic CI/CD (Continuous Integration and Continuous Deployment) pipeline using Jenkins and Docker. It automates the process of building, testing, and deploying an application upon every code commit.
 
 Objective
